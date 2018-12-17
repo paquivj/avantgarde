@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Les_Reverberes_2</title>
+	<link rel="stylesheet" type="text/css" href="css/style_grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;	
+		}
+
+		body{
+        	background:peru;
+        }
+        .container{
+        	width: 1024px;
+        	margin:auto;
+        }
+		
+  		header{
+          	text-align: center;
+      		  font-family: 'Lora', serif;
+          }
+
+      header h1{
+          text-align:left;
+          font-family:'Roboto', sans-serif;
+  			 font-size: 2em;
+  			 margin-left: 80px;
+  			 margin-top: 30px;
+  		 }
+      header h2{
+         width: 100%
+         padding: 40px 0 10px 0;
+  			 font-size: 3em;
+  			 letter-spacing: 20px;
+        }
+      header h3{
+        padding: 0 0 10px 0;
+  			font-size: 1em;
+  			letter-spacing: 5px;
+          }
+
+       	main{
+       		font-family: 'Lora', serif;
+       		width: 100%;
+       		font-size: 0.8em;
+       		text-align: justify;
+       	}
+       	section{
+       		position: relative;
+       		overflow: hidden;
+       	}
+	
+       	#c1{
+       		padding:0 70px;
+       		columns:2;
+       		column-gap: 30px;
+       		}
+       	#c1{
+       		text-indent: 1.5em;
+       		height:auto; 
+       		width:100%;
+       	}
+       	#c1:hover{ 
+       		text-shadow: 2px 2px 4px;
+       		columns: 1;
+       	}
+       	
+        #c2{
+        	width: 530px;
+        	height: 400px;
+        	background-color:#cc6633;
+        	float:right;
+        	margin-top: -800px;	
+        	margin:left;
+        }
+        #c2:hover{
+       		color: peru;
+       	}
+       #marcel{
+       		margin:10px;
+       		text-align: right;
+       		font-family: cursive;
+
+        }
+       #uno{
+			font-family: 'Roboto', sans-serif;
+       		text-align: center;
+       		padding: 40px 0 0 0;
+       		font-size: 2.5em;
+       } 
+       #dos{
+			font-family:'Lora', serif;
+	       	text-align: center;
+	       	padding: 10px 0 0 0;
+	       	font-size: 1em;
+	       	word-spacing: 8px;
+       } 
+       h1:hover{
+	       	color:#cc6633;
+	       	transform: rotateX(150deg);
+	       	font-size: 2em;
+       }
+
+		h2:hover{
+       		transform: scaleY(1.5);
+       		color:#cc6633;
+       		text-shadow: 3px 3px;
+
+       }
+       h3:hover{
+       		color:#cc6633;
+       		text-decoration-line: underline;
+
+       }
+       footer{
+       		font-family:'Lora', serif;
+        	border-top: 3px solid #cc6633;
+        	width:100%;
+        	text-align: justify;
+        	padding: 20px 0 20px 0;
+
+ 		}
+ 		footer h4{
+        	text-align: center;
+			font-size: 2em;
+ 		}
+ 		footer h4:hover{
+ 			font-size: 3em;
+ 			color:#cc6633; 
+ 			transform: rotate(-90deg);
+ 		}
+
+ 		.music {
+ 			color: peru;
+ 			font-size:5em;
+ 		}
+ 		.clave {
+ 			margin-right: 35px;
+ 			color: #cc6633; 
+ 		}
+ 		.clave1 {
+ 			margin-right: 40px;
+ 		}
+ 		
+ 		#tres{
+ 			letter-spacing: 40px;
+ 			margin-bottom: 20px;
+ 		
+ 		}
+
+ 		#cuatro{
+ 			padding:0 70px;
+ 			column-gap: 30px;
+ 			columns:2;
+ 		}
+ 		#cuatro:hover{
+ 			text-shadow: 2px 2px 4px;
+       		columns: 1;
+       	}
+
+		/*landscape*/
+ 		@media only screen and (max-width:600px){
+ 			/*landscape styes*/
+ 			body{
+ 					background:PeachPuff;
+				} 
+				header h1{
+				height:96px;
+				margin: 0 0 16px 0;
+			}
+				header h1,h2,h3,h4,#c1,h4,#tres,#cuatro{
+        		width: 40%;
+
+        		
+        }
+        header{
+        	text-align: center;
+    		font-family: 'Lora', serif;
+        }
+
+        header h2{
+        	font-size: 3vw;
+        	padding: 20px 0 10px 0;
+			font-size: 3em;
+			letter-spacing: 10px;
+        }
+        header h3{
+        	font-size: 3vw;
+        	padding: 0 0 10px 0;
+			font-size: 1em;
+			letter-spacing: 2px;
+        }
+
+       	main{
+       		font-family: 'Lora', serif;
+       		width: 100%;
+       		font-size: 0.6em;
+       		text-align: justify;
+       	}
+       	section{
+       		position: relative;
+       		overflow: hidden;
+ 		}
+        footer h4:hover{
+ 			font-size: 2em;
+ 			color:#cc6633; 
+ 			transform: rotate(-0deg);
+ 		}
+ 		#c1{
+       		padding:0 70px;
+       		columns:1;
+       		}
+ 		#c2{
+        	width: 190px;
+        	height:  140px;
+        	background-color:#cc6633;
+        	margin-top: -750px;	
+        	float: left
+
+		}
+ 		#c2:hover{
+       		color: PeachPuff;
+       	}
+       #uno{
+			font-family: 'Roboto', sans-serif;
+       		text-align: center;
+       		padding: 10px 0 0 0;
+       		font-size: 1.2em;
+       } 
+       #dos{
+			font-family:'Lora', serif;
+	       	text-align: center;
+	       	padding: 2px 0 0 0;
+	       	font-size: 0.6em;
+	       	word-spacing: 2px;
+	    }
+	    #cuatro{
+ 			columns:1;
+		}
+ 		.music {
+ 			color: peru;
+ 			font-size:2em;
+ 		}
+
+	</style> 		
+</head>
+
+<body>
+	<header class="container">
+		<h1> 2</h1>
+		<h2>MUSIQUE</h1>
+		<h3> CLAUDE DUBOSCQ 1897 - 1938</h2>	
+		
+	</header>
+	<main>
+		<div class="container">
+		<section id="c1">
+					<p>Nous n'attendons étiqnettes, l'expérience est terminée. Ils ont dit tout ce qu'ilsavaient à dire, ils ont chacun plus ou moins bien réalisé leurprogramme, lequel consistait à faire le point et à prouver qu'il le type parfait nsistait à faire le point et à prouvedu musicien né. Maint! nàht qu'il existait d'autres voies non exploitées uccessives.Maintenant nousetuccessives.Maintenant nous plus justes, d'expressionet de cristallisation.</p>
+					<p>Nous leur savons gré du courage qu'il ont eu à briser certainsmurs et toute notre reconnaissance va vers eux pour le climat propice qu'ils ont bien préparé. Mais s'il y a eu de grandes choses et de sympathiques figures, il y a eu beaucoup de dé? chefs, car bien' peu restera de ces révolutions successives.Maintenant nous sommes d'accord qu'il s'agit de construire avec une matière plus résistante au temps afin qu'elle ne se démode pas si vite.</p>
+					<p>Parmi ceux qui -ont su se dégager de l'étiquette et se trouver soi-même, Claude Duboscq est un de ceux que l'on peut mettn »11 avant. Nous trouvons chez lui les éléments solides qui de fient toute mode.</p>
+					<p>Claude Duboscq n'est plus. Il est mort tout récemment avan que nous ayons pu, avec sa collaboration, mettre quelques-une: de ses oeuvres à la scène. Son idéal avait été d'écrire pour 1! théâtre, il voulait joindre à la poésie la musique et la dansepour n'en faire qu'un tout homogène, pour le régal de l'esprit Il y est parvenu et il nous laisse une importante production dan le genre.</p> 
+					<p>A Onesse, dans les Landes, il avait rêvé donner seS drame sur la scène qu'il avait fait construire spécialement pour trahir en rien l'esprit et la teneur de ses oeuvres. Il n'y fu donné que « Pasentage » et « Colombe la Petite » ; ces repri sentations n'eurent guère d'amateurs, Onesse étant trop eloign de tout. Mais le site était bien celui qu'il fallait, rien ne pouvai être mieux désigné pour de telles réalisations que ce lieu a coeur des forêts de pins. 11 ne nous reste plus que le préeieu souvenir et l'enchantement de ces inoubliables soirées.</p>
+					<p>Claude Duboscq était le type parfait du musicien né. Maint! nàht qu'il entre dans la légende, il nous est permis d'en fair l'éloge, et d'illustrer cet article de quelques souvenirs précieux. Celui-ci a une saveur toute particulière. Dans le grand restau- 1-ant de l'Hôtel d'Angleterre à Cauterets. Toutes les tables sont occupées par lies baigneurs parmi ces toilettes élégantes et ces smokings, un petit'orchestre de tziganes joue les airs à la mode. Tout à coup un enfant de quatre ans à peine, aux cheveux longs, aux grands yeux noirs, se lève et se précipite au milieu des musiciens (1). C'est lui  qui bat la mesure. 11 lesentraînegeste et du regard. Telle est la première révélation du talent de Duboscq. Dès qu'il fut en âge de prendre des leçons de piano, c'est-à-dire vers sa sixième année, il fut confié à un des meilleurs professeurs, M. Thibault, le père du violoniste Jacques Thibault. Les progrès de l'enfant sont si rapides que bientôt il déchiffre les sonates de Mozart et de Beethoven presque sansfaute et avec un sens Si extraordinaire de la musique et avec une telle fougue qu'il faut le modérer. Puis, encore tout jeune (huit ans) il donne son premier récital, au profit d'une oeuvrede charité bordelaise, qui fut un grand triomphe.</p>
+					<p>Mais Duboscq quoique pianiste de grande classe, ne désireguère se faire entendre, l'interprète cède la place au compos •ileur el au poète. Là commence l'oeuvre de Claude Duboscq fasionfsi 
+					<p>Les premières compositions qu'il écrivil. déjà osées quantaux harmonies, restent dans des formes classiques (sonates, tri- , </p>
+					<p>facteurs dont il se sert, ont la même fraîcheur et la nouveauté de l'ensemble. Toute l'oeuvre de Claude Duboscq réserve la surprise, elleest neuve d'un bout à l'autre et ne se rattache qu'aux productions les plus originales et les plus authentiques du passé. 11 ouvre une large porte sur un monde meilleur'et inconnu, un mondefacteurs dont il se sert, ont la même fraîcheur et la nouveauté de l'ensemble. Toute l'oeuvre de Claude Duboscq réserve la surprise, elleest neuve d'un bout à l'autre et ne se rattache qu'aux productions les plus originales et les plus authentiques du passé. 11 ouvre une large porte sur un monde meilleur'et inconnu, un mondefacteurs dont il se sert, ont la même fraîcheur et la nouveauté de l'ensemble. Toute l'oeuvre de Claude Duboscq réserve la surprise, elleest neuve d'un bout à l'autre et ne se rattache qu'aux productions les plus originales et les plus authentiques du passé. 11 ouvre une large porte sur un monde meilleur'et inconnu, un mondefacteurs dont il se sert, ont la même fraîcheur et la nouveauté de l'ensemble. Toute l'oeuvre de Claude Duboscq réserve la surprise, elleest neuve d'un bout à l'autre et ne se rattache qu'aux productions les plus originales et les plus authentiques du passé. 11 ouvre une large porte sur un monde meilleur'et inconnu, un mondefacteurs dont il se sert, ont la même fraîcheur et la nouveauté de l'ensemble. Toute l'oeuvre de Claude Duboscq réserve la surprise, elleest neuve d'un bout à l'autre et ne se rattache qu'aux productions les plus originales et les plus authentiques du passé. 11 ouvre une large porte sur un monde meilleur'et inconnu, un mondefacteurs dont il se sert, ont la même fraîcheur et la nouveauté de l'ensemble. Toute l'oeuvre de Claude Duboscq réserve la surprise, elleest neuve d'un bout à  ouvre une large porte sur un monde meilleur'et inconnu, un monde es premières compositions qu'il écrivil. déjà osées quant aux harmonies, restent dans des formes classiques </p>
+					<p>Duboscq s'en dégagé définitivement pour s'adjuger plus de liberté, afin de cristalliser davantage le monde qu'il nous offre. Les préjugés d'école, la routine souvent confondue avec traditionn'altèrent aucunement son inspiration, et les facteurs dont il se sert, ont la même fraîcheur et la nouveauté de l'ensemble. Toute l'oeuvre de Claude Duboscq réserve la surprise, elleest neuve d'un bout à l'autre et ne se rattache qu'aux productions les plus originales et les plus authentiques du passé. 11 ouvre une large porte sur un monde meilleur'et inconnu, un monde
+					de poésie où n'existe que l'émotion pure. Bientôt, peut-être, on aura à Paris l'occasion- d'entendre les oeuvres de Claude DuboSVq, et nous le souhaitons ardemment
+					car il se peut qu'elles apportent 1111 renouveau à la musique et au théâtre.
+					<p id="marcel"><a href="https://monoskop.org/Les_Réverbères">Les_Reverberes_2_p4</a>
+				    Marcel LALOE.(1) Rapporté $är M. Morhardt dans la « Petite Gironde».</p>
+		 </section>
+		<section id="c2" >
+			<div class="col-6">
+				<p id="uno"> Radio Grande-Armée</p>
+				<p id="dos"><br>13, avenue de la Grande-Armée</br><br>Kléber 06-05</br><br> <span class="music"><i class="fas fa-music"></i></span></br> <br>Les meilleurs postes des meilleures marques</br><br>Dépannage — Service à vos ordres</br><br>Pianos — Location — Vente — Echange</br></p>
+			</div>
+			<div></div>
+    </section>
+    </div>
+		<footer class="row">
+				<div class="container">
+					<h4>P H I L O S O P H I E</h3>
+					<p id="tres">
+						<span class="clave"><i class="fas fa-music"></i></span>
+						<span class="clave1"><i class="fas fa-music"></i></span>
+						<span class="clave"><i class="fas fa-music"></i></span>
+						<span class="clave1"><i class="fas fa-music"></i></span>
+						<span class="clave"><i class="fas fa-music"></i></span>
+						<span class="clave1"><i class="fas fa-music"></i></span>
+						<span class="clave"><i class="fas fa-music"></i></span>
+						<span class="clave1"><i class="fas fa-music"></i></span>
+						<span class="clave"><i class="fas fa-music"></i></span>
+						<span class="clave1"><i class="fas fa-music"></i></span>
+						<span class="clave"><i class="fas fa-music"></i></span>
+						<span class="clave1"><i class="fas fa-music"></i></span>
+						<span class="clave"><i class="fas fa-music"></i></span>
+						<span class="clave1"><i class="fas fa-music"></i></span>
+						<span class="clave"><i class="fas fa-music"></i></span>
+						<span class="clave1"><i class="fas fa-music"></i></span>
+						<span class="clave"><i class="fas fa-music"></i></span>
+						<span class="clave1"><i class="fas fa-music"></i></span>
+						<span class="clave"><i class="fas fa-music"></i></span>
+						<span class="clave1"><i class="fas fa-music"></i></span>
+						<span class="clave"><i class="fas fa-music"></i></span>	
+						
+					<p id="cuatro">Le poésie est un jeu par lequel l'artiste
+					restitue au monde sa vision personnelle de ce monde, par le moyen de mots,
+					images, sons, actes...Quoiqu'à certains moments nousayons l'impression de choisir, d'évoquer à notre gré certaine image, en fait chacun des milliers de souvenirs qui se pressent en notre mémoire est doué d'une teinte affective et d'une tension affective propres. Nous ne choisissons que l'image dont « l'affect » est assez fort parmi celles dont la teinte affectiv s'assortit le mieux à la coloration actuelle du champ de consciencetre mémoire est doué d'une teinte affective et d'une tension affective propres. Nous ne choisissons que l'image dont « l'affect » est assez fort parmi celles dont la teinte affecttre mémoire est doué d'une teinte affective et d'une tension affective propres. Nous ne choisissons que l'image dont « l'affect » est assez fort parmi celles dont la teinte affect.</p>
+
+				</div>		
+		</footer>
+		
+	</main>
+</body>
+</html>
